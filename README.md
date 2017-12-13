@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-$ npm install --save react-native-async-storage-wrapper
+$ npm install --save @ingenuity-labs/react-native-async-storage-wrapper
 ```
 
 ## Usage
