@@ -4,24 +4,24 @@ import { AsyncStorage as ReactNativeAsyncStorage } from 'react-native';
 const AsyncStorage = {
 
   getObjectWithIdentifier: (identifier) => {
-    return new Promise(async function(resolve, reject) {
+    const promise = new Promise(async (resolve, reject) => {
       try {
-        var object = await ReactNativeAsyncStorage.getItem(identifier);
+        const object = await ReactNativeAsyncStorage.getItem(identifier);
 
         resolve(object);
       } catch (error) {
-        console.log(`Error getting object: ${error}`);
-
         reject();
       }
     });
+
+    return promise;
   },
 
   removeObjectWithIdentifier: async (identifier) => {
     try {
       await ReactNativeAsyncStorage.removeItem(identifier);
     } catch (error) {
-      console.log(`Error removing object: ${error}`);
+      // Do nothing
     }
   },
 
@@ -29,11 +29,10 @@ const AsyncStorage = {
     try {
       await ReactNativeAsyncStorage.setItem(identifier, object);
     } catch (error) {
-      console.log(`Error setting object: ${error}`);
+      // Do nothing
     }
-  }
-
-}
+  },
+};
 
 /* Export ==================================================================== */
 

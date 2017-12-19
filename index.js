@@ -3,5 +3,5 @@ import AsyncStorage from './AsyncStorage';
 /* Export ==================================================================== */
 
 module.exports = {
-  AsyncStorage: AsyncStorage
+  AsyncStorage,
 };

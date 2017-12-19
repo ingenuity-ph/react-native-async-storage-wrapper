@@ -1,6 +1,6 @@
 {
   "name": "@ingenuity-labs/react-native-async-storage-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An Async Storage utility wrapper for React Native projects thru the initiative of Ingenuity Labs.",
   "main": "index.js",
   "scripts": {
