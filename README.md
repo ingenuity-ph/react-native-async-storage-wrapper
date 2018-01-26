@@ -20,6 +20,14 @@ $ npm install --save @ingenuity-labs/react-native-async-storage-wrapper
 * `setObjectWithIdentifier(object, identifier)`
 > Stores the corresponding `object` with its given `identifier` to the storage, else, you need to catch the error when it failed to store the object.
 
+## Contributing
+
+1. Fork repository
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
 ## License
 
-ISC © [Jason Jon E. Carreos]()
+MIT

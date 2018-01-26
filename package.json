@@ -1,6 +1,6 @@
 {
   "name": "@ingenuity-labs/react-native-async-storage-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An Async Storage utility wrapper for React Native projects thru the initiative of Ingenuity Labs.",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/ingenuityph/react-native-async-storage-wrapper.git"
+    "url": "https://github.com/ingenuity-ph/react-native-async-storage-wrapper"
   },
   "author": "Jason Jon E. Carreos",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/ingenuityph/react-native-async-storage-wrapper#readme"
+  "license": "MIT",
+  "homepage": "https://github.com/ingenuity-ph/react-native-async-storage-wrapper"
 }
